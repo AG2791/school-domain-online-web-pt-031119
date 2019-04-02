@@ -13,6 +13,7 @@
 def add_student(student, grade)
   roster[grade] ||= []
     roster[grade] << student
+           # or 
 #   if @roster.has_key?(grade) 
 #   @roster[grade] << student
 # else
