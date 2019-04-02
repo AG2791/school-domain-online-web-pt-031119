@@ -12,11 +12,12 @@
 
 def add_student(student, grade)
   roster[grade] ||= []
-  if @roster.has_key?(grade) 
-  @roster[grade] << student
-else
   @roster[grade] = [student]
-end
+#   if @roster.has_key?(grade) 
+#   @roster[grade] << student
+# else
+#   @roster[grade] = [student]
+# end
 end
 def grade(grade_list)
    self.roster[grade_list]
